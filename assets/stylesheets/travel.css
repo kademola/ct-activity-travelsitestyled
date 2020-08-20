@@ -223,11 +223,9 @@ table {
   - give a 2px black solid border to the table
 */
 
-tr {
-  border: 2px black solid;
-}
-
-td {
+tr,
+td,
+th {
   border: 2px black solid;
 }
 
@@ -240,7 +238,6 @@ td {
 th {
   background-color: black;
   color: white;
-  border: 2px black solid;
 }
 
 /*
